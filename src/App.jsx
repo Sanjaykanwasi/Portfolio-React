@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./compnents/Navbar";
 import HeroSection from "./compnents/HeroSection";
 import Projects from "./compnents/Projects";
+import Skills from "./compnents/Skills";
+import Certificates from "./compnents/Certificates";
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
         <Navbar />
         <HeroSection />
         <Projects />
+        <Skills />
+        <Certificates />
       </div>
     </main>
   );

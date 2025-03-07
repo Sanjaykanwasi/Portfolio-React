@@ -12,6 +12,7 @@ import {
   RiJavascriptLine,
   RiReactjsLine,
   RiNodeTree,
+  RiJavaLine,
 } from "@remixicon/react";
 import {
   RiDatabaseLine,
@@ -22,7 +23,7 @@ import {
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
-  { label: "Work Experience", href: "#work" },
+  { label: "Certificates", href: "#certificates" },
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
@@ -97,7 +98,7 @@ export const SKILLS = [
     icon: <RiHtml5Line className="text-orange-600" />,
   },
   {
-    name: "CSS3",
+    name: "CSS",
     icon: <RiCss3Line className="text-blue-500" />,
   },
   {
@@ -109,8 +110,8 @@ export const SKILLS = [
     icon: <RiReactjsLine className="text-blue-400" />,
   },
   {
-    name: "Node.js",
-    icon: <RiNodeTree className="text-green-500" />,
+    name: "Java",
+    icon: <RiJavaLine className="text-yellow-500" />,
   },
   {
     name: "MongoDB",
@@ -126,35 +127,31 @@ export const SKILLS = [
   },
 ];
 
-export const EXPERIENCES = [
+export const CERTIFICATES = [
   {
-    yearRange: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
+    plateform: "Internshala",
+    name: "Web Development",
     description:
       "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-    techStack: ["Javascript", "React.js", "Next.js", "MongoDB"],
+    techStack: ["HTML", "CSS", "CSS", "MongoDB"],
   },
   {
-    yearRange: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
+    plateform: "Coursera (Duke University)",
+    name: "Java Programming: Solving Problems with Software",
     description:
       "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
     techStack: ["HTML", "CSS", "Vue.js", "MySQL"],
   },
   {
-    yearRange: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
+    plateform: "Coursera (Johns Hopkins University)",
+    name: "HTML, CSS, and Javascript for Web Developers",
     description:
       "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
     techStack: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
-    yearRange: "2020 - 2021",
-    role: "Software Engineer",
-    company: "PayPal",
+    plateform: "Coursera (IBM)",
+    name: "Introduction to NoSQL Databases",
     description:
       "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
     techStack: ["Ruby", "Rails", "PHP", "SQLite"],
