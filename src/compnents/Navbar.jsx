@@ -14,10 +14,10 @@ const Navbar = () => {
   // Function to handle Link Click
   const handleLinkClick = (e, href) => {
     e.preventDefault();
-    const tagretElement = document.querySelector(href);
-    if (tagretElement) {
+    const targetElement = document.querySelector(href);
+    if (targetElement) {
       const offset = -85;
-      const elementPosition = tagretElement.getBoundingClientRect().top;
+      const elementPosition = targetElement.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.scrollY + offset;
 
       window.scrollTo({

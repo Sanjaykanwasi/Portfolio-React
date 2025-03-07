@@ -1,7 +1,7 @@
-import project1 from "../assets/project1.webp";
-import project2 from "../assets/project2.webp";
-import project3 from "../assets/project3.webp";
-import project4 from "../assets/project4.webp";
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
 import personImage from "../assets/testimonial.webp";
@@ -37,39 +37,39 @@ export const PROFILE = {
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "Google Gemini Chatbot",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
+      "An advanced AI-powered chatbot designed to generate human-like responses, answer questions, and assist with various tasks. It replicates Gemini’s capabilities, including natural language understanding, contextual awareness, and smooth interaction, making it a powerful AI assistant.",
+    techStack: ["HTML", "CSS", "JavaScript"],
     imgSrc: project1,
-    link: "https://example-ecommerce.com",
+    link: "https://sanjaykanwasiai.netlify.app/",
   },
   {
     id: 2,
-    title: "Social Media App",
+    title: "Ochi Website",
     description:
-      "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
-    techStack: ["React", "Firebase", "Redux"],
+      "A sleek and modern web design that replicates Ochi’s clean aesthetics, smooth animations, and user-friendly interface. It features a visually appealing layout, responsive design, and interactive elements, showcasing high-quality frontend development. ",
+    techStack: ["React", "Tailwind CSS"],
     imgSrc: project2,
-    link: "https://example-socialapp.com",
+    link: "https://ochibysanjay.netlify.app/",
   },
   {
     id: 3,
     title: "Portfolio Website",
     description:
-      "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
-    techStack: ["Next.js", "Tailwind CSS"],
+      "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance. It serves as a digital resume, allowing potential employers, clients, or collaborators to explore your work, learn about your expertise, and contact you easily.",
+    techStack: ["HTML", "CSS", "JavaScript"],
     imgSrc: project3,
-    link: "https://myportfolio.com",
+    link: "https://sanjaysinghkanwasi.netlify.app/",
   },
   {
     id: 4,
-    title: "Blog Platform",
+    title: "Echo-S",
     description:
-      "A blogging platform with a content management system, user authentication, and an intuitive editor.",
-    techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
+      "A landing page is a focused, standalone web page designed to capture attention and drive a specific action, such as signing up, purchasing, or learning more about a product or service. With a clean layout, compelling visuals, and persuasive copy, it effectively engages visitors and boosts conversions.",
+    techStack: ["React", "Tailwind CSS"],
     imgSrc: project4,
-    link: "https://example-blogplatform.com",
+    link: "https://echo-s.vercel.app/",
   },
   {
     id: 5,
