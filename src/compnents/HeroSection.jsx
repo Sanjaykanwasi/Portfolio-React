@@ -24,13 +24,14 @@ const HeroSection = () => {
           {PROFILE.subheading}
         </p>
         <a
-          href="/David-stone.pdf"
+          href="https://drive.google.com/file/d/1jcEaKKVhrAUGs1pMP8BVoLWuU-OAgERT/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           download
-          className="hero-btn mb-6 flex gap-1 rounded-full border border-pink-200/50 px-3 py-2 tracking-tighter"
+          style={{ pointerEvents: "auto" }}
+          className="hero-btn mb-6 flex gap-1 rounded-full border border-pink-200/50 px-3 py-2 tracking-tighter relative z-10"
         >
-          <span>Download Resume </span>
+          <span>View Resume</span>
           <RiArrowRightUpLine />
         </a>
         <img
