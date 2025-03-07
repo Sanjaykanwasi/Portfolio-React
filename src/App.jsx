@@ -5,6 +5,7 @@ import Projects from "./compnents/Projects";
 import Skills from "./compnents/Skills";
 import Certificates from "./compnents/Certificates";
 import Education from "./compnents/Education";
+import Contact from "./compnents/Contact";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Skills />
         <Certificates />
         <Education />
+        <Contact />
       </div>
     </main>
   );
