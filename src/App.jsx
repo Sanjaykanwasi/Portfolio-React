@@ -4,6 +4,7 @@ import HeroSection from "./compnents/HeroSection";
 import Projects from "./compnents/Projects";
 import Skills from "./compnents/Skills";
 import Certificates from "./compnents/Certificates";
+import Education from "./compnents/Education";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Projects />
         <Skills />
         <Certificates />
+        <Education />
       </div>
     </main>
   );

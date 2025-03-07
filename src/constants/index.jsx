@@ -165,34 +165,26 @@ export const CERTIFICATES = [
 export const EDUCATION = [
   {
     id: 1,
-    degree: "Bachelor of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "2012 - 2016",
+    degree: "Bachelor of Engineering in Computer Science",
+    institution: "Chandigarh University",
+    duration: "2020 - 2024",
     description:
-      "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
+      "Graduated in Computer Science, focusing on algorithms, data structures, and web development. Completed projects in Java, React, and Node.js, gaining hands-on experience in frontend and backend technologies.",
   },
   {
     id: 2,
-    degree: "Master of Science in Software Engineering",
-    institution: "MIT",
-    duration: "2016 - 2018",
+    degree: "Senior School Certificate Examination",
+    institution: "Army Public School No.1 Roorkee (CBSE)",
+    duration: "2019 - 2020",
     description:
-      "Focused on advanced software engineering concepts, system design, and AI technologies. Completed a thesis on machine learning applications in real-time data processing.",
+      "Completed coursework in Physics, Chemistry, Mathematics, English and Physical Education. Participated in extracurricular activities, sports and events.",
   },
   {
     id: 3,
-    degree: "Certified React Developer",
-    institution: "Udacity Nanodegree",
-    duration: "2019",
+    degree: "Secondary School Examination",
+    institution: "Army Public School No.1 Roorkee (CBSE)",
+    duration: "2017 - 2018",
     description:
-      "Earned a certification in advanced React.js development, including hooks, context API, and performance optimization.",
+      "Completed coursework in Mathematics, Science, Social Science, English and Hindi. Participated in extracurricular activites, sports, and events",
   },
 ];
-
-export const TESTIMONIAL = {
-  name: "Sarah Doe",
-  title: "CEO, TechCorp",
-  quote:
-    "Working with David was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
-  image: personImage,
-};
