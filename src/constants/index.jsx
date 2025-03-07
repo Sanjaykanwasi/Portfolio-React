@@ -132,29 +132,33 @@ export const CERTIFICATES = [
     plateform: "Internshala",
     name: "Web Development",
     description:
-      "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-    techStack: ["HTML", "CSS", "CSS", "MongoDB"],
+      "The Internshala Web Development Training equips learners with essential web development skills, covering both frontend (HTML, CSS, JavaScript, Bootstrap, React) and backend (PHP, MySQL) technologies. Participants learn to create responsive websites, handle user interactions, and connect frontend with backend for dynamic web applications.",
+    techStack: ["HTML", "CSS", "JavaScript", "React", "BootStrap"],
+    link: "https://trainings.internshala.com/s/v/1757521/16656b11",
   },
   {
     plateform: "Coursera (Duke University)",
     name: "Java Programming: Solving Problems with Software",
     description:
-      "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
-    techStack: ["HTML", "CSS", "Vue.js", "MySQL"],
+      "The Java Programming: Solving Problems with Software course focuses on developing problem-solving skills using Java. Learners gain hands-on experience with fundamental programming concepts, including loops, conditionals, arrays, and string manipulation.",
+    techStack: ["Java", "OOPs", "DSA"],
+    link: "https://www.coursera.org/account/accomplishments/verify/GCGRDCZM2FR8",
   },
   {
     plateform: "Coursera (Johns Hopkins University)",
     name: "HTML, CSS, and Javascript for Web Developers",
     description:
-      "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
-    techStack: ["Python", "Svelte", "Three.js", "Postgres"],
+      "The HTML, CSS, and JavaScript for Web Developers course teaches the fundamentals of modern web development, enabling learners to build responsive and interactive websites. Participants gain hands-on experience with HTML for structuring content, CSS for styling and layout, and JavaScript for dynamic functionality.",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    link: "https://www.coursera.org/account/accomplishments/verify/WSL92RB876SB",
   },
   {
     plateform: "Coursera (IBM)",
     name: "Introduction to NoSQL Databases",
     description:
-      "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-    techStack: ["Ruby", "Rails", "PHP", "SQLite"],
+      "The Introduction to NoSQL Databases course provides a foundational understanding of NoSQL database concepts, their advantages, and real-world applications. Learners explore different types of NoSQL databases, including document-based, key-value, column-family, and graph databases, and understand when to use them over traditional relational databases. ",
+    techStack: ["NoSql", "Mongodb", "Cassandra "],
+    link: "https://www.coursera.org/account/accomplishments/verify/WBAX787YM7LD",
   },
 ];
 

@@ -21,9 +21,18 @@ const Certificates = () => {
                   {certificate.plateform}
                 </div>
                 <div className="w-full md:w-3/4">
-                  <h3 className="mb-2 text-lg lg:text-2xl ">
-                    {certificate.name}
-                  </h3>
+                  <a
+                    href={certificate.link}
+                    target="_blank"
+                    className="relative z-10 block"
+                    style={{ pointerEvents: "auto" }}
+                    rel="noopener noreferrer"
+                  >
+                    <h3 className="mb-2 text-lg lg:text-2xl ">
+                      {certificate.name}
+                    </h3>
+                  </a>
+
                   <p className="mb-4 text-sm lg:text-base ">
                     {certificate.description}
                   </p>
