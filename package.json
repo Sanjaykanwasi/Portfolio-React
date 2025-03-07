@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@formspree/react": "^2.5.4",
     "@remixicon/react": "^4.6.0",
     "@tailwindcss/vite": "^4.0.11",
     "gsap": "^3.12.7",
