@@ -6,3 +6,11 @@
   background-color: rgb(27, 30, 39);
   color: white;
 }
+
+.bg-image {
+  background-image: url("assets/noise.webp");
+}
+
+a {
+  color: white !important;
+}
