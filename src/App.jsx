@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./compnents/Navbar";
+import HeroSection from "./compnents/HeroSection";
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
       <div className="bg-image fixed inset-0 bg-cover bg-fixed bg-center"></div>
       <div className="relaive z-10">
         <Navbar />
+        <HeroSection />
       </div>
     </main>
   );

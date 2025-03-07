@@ -28,10 +28,10 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: "David Stones",
-  role: "Full Stack Developer",
+  name: "Sanjay Singh Kanwasi",
+  role: "Front End Developer",
   subheading:
-    "With 10 years of full-stack development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
+    "Passionate and detail-oriented Front-End Developer with expertise in HTML, CSS, JavaScript, and modern frameworks like React.js. Skilled in building responsive, user-friendly, and high-performance web applications..",
 };
 
 export const PROJECTS = [
