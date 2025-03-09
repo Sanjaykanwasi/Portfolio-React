@@ -122,7 +122,7 @@ export const SKILLS = [
     icon: <RiCodeSSlashLine className="text-teal-400" />,
   },
   {
-    name: "GraphQL",
+    name: "SQL",
     icon: <RiGitBranchLine className="text-pink-400" />,
   },
 ];
