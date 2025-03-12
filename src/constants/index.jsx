@@ -74,12 +74,12 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    title: "Task Management App",
+    title: "Echo-M",
     description:
-      "A task management tool with user authentication, reminders, and collaboration features.",
-    techStack: ["Angular", "Firebase", "Material UI"],
+      "Developed and deployed a dynamic movie discovery website using The Movie Database (TMDB) API. The platform allows users to browse movies, view details, and watch trailers seamlessly. Implemented features such as a favorites system with local storage and an interactive UI using React and modern web technologies",
+    techStack: ["React", "CSS"],
     imgSrc: project5,
-    link: "https://example-taskapp.com",
+    link: "https://echo-m.vercel.app/",
   },
   {
     id: 6,
