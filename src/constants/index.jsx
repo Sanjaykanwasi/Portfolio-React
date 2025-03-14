@@ -3,8 +3,7 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
-import project6 from "../assets/project6.webp";
-import personImage from "../assets/testimonial.webp";
+import project6 from "../assets/project6.png";
 
 import {
   RiHtml5Line,
@@ -83,12 +82,12 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Echo-L(Logo Maker)",
     description:
-      "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
+      "Echo-L is a sleek and intuitive website for creating custom logos effortlessly. Whether you're a startup, designer, or business owner, Echo-L provides AI-powered tools to generate professional-quality logos in minutes.",
+    techStack: ["React", "TailwindCSS"],
     imgSrc: project6,
-    link: "https://example-learningplatform.com",
+    link: "https://echo-l.vercel.app/",
   },
 ];
 
