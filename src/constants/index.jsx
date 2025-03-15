@@ -4,6 +4,7 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
+import project7 from "../assets/project7.png";
 
 import {
   RiHtml5Line,
@@ -73,7 +74,7 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    title: "Echo-M",
+    title: "Echo-M (Movie Website)",
     description:
       "Developed and deployed a dynamic movie discovery website using The Movie Database (TMDB) API. The platform allows users to browse movies, view details, and watch trailers seamlessly. Implemented features such as a favorites system with local storage and an interactive UI using React and modern web technologies",
     techStack: ["React", "CSS"],
@@ -88,6 +89,15 @@ export const PROJECTS = [
     techStack: ["React", "TailwindCSS"],
     imgSrc: project6,
     link: "https://echo-l.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Echo-G(Game Website)",
+    description:
+      "Echo-G is a game discovery platform that leverages the RAWG API to provide users with detailed information about video games. It allows gamers to explore game ratings, genres, and more. With a sleek and intuitive interface, Echo-G enhances the browsing experience by offering seamless search and filtering options, making it easy to find and track favorite games.",
+    techStack: ["React", "TailwindCSS"],
+    imgSrc: project7,
+    link: "https://echo-g-sanjay.vercel.app/",
   },
 ];
 
