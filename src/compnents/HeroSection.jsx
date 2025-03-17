@@ -24,7 +24,7 @@ const HeroSection = () => {
           {PROFILE.subheading}
         </p>
         <a
-          href="https://drive.google.com/file/d/1yQpeFnLcT-No1i0tOE8mtCy6YTc_hwGQ/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1wReopfH1gjR75H1Cmq-_JOMZFnzDUr79/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           download
