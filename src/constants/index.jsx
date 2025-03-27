@@ -6,6 +6,7 @@ import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
 import project7 from "../assets/project7.png";
 import project8 from "../assets/project8.png";
+import project9 from "../assets/project9.png";
 
 import {
   RiHtml5Line,
@@ -101,13 +102,22 @@ export const PROJECTS = [
     link: "https://echo-g-sanjay.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Echo-E(Employee Management System)",
     description:
       "Echo E is a streamlined task management web application designed for efficient workplace coordination. It features an Admin Dashboard where administrators can log in, manage employees, and assign tasks. Employees access their Employee Dashboard to view assigned tasks and track their progress.",
     techStack: ["React", "TailwindCSS"],
     imgSrc: project8,
     link: "https://echo-e.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Echo-I(AI Image Generator)",
+    description:
+      "Echo I is an AI-powered image generator website that utilizes the Hugging Face API to create stunning visuals based on user prompts. It allows users to select different AI models, adjust aspect ratios, and generate multiple images efficiently.",
+    techStack: ["React", "TailwindCSS"],
+    imgSrc: project9,
+    link: "https://echo-i.vercel.app/",
   },
 ];
 
