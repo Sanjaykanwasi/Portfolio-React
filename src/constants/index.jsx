@@ -5,6 +5,7 @@ import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
 import project7 from "../assets/project7.png";
+import project8 from "../assets/project8.png";
 
 import {
   RiHtml5Line,
@@ -98,6 +99,15 @@ export const PROJECTS = [
     techStack: ["React", "TailwindCSS"],
     imgSrc: project7,
     link: "https://echo-g-sanjay.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Echo-E(Employee Management System)",
+    description:
+      "Echo E is a streamlined task management web application designed for efficient workplace coordination. It features an Admin Dashboard where administrators can log in, manage employees, and assign tasks. Employees access their Employee Dashboard to view assigned tasks and track their progress.",
+    techStack: ["React", "TailwindCSS"],
+    imgSrc: project8,
+    link: "https://echo-e.vercel.app/",
   },
 ];
 
