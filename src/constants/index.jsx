@@ -7,6 +7,8 @@ import project6 from "../assets/project6.png";
 import project7 from "../assets/project7.png";
 import project8 from "../assets/project8.png";
 import project9 from "../assets/project9.png";
+import project10 from "../assets/project10.png";
+import project11 from "../assets/project11.png";
 
 import {
   RiHtml5Line,
@@ -118,6 +120,24 @@ export const PROJECTS = [
     techStack: ["React", "TailwindCSS"],
     imgSrc: project9,
     link: "https://echo-i.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Soulcity",
+    description:
+      "This is a responsive YouTube video viewer website built with React and Tailwind CSS, designed for a clean and modern user experience. It uses the YouTube Data API to fetch and display real-time video content based on user search queries.",
+    techStack: ["React", "TailwindCSS"],
+    imgSrc: project11,
+    link: "https://soulcity.vercel.app/",
+  },
+  {
+    id: 11,
+    title: "GTA VI",
+    description:
+      "This is a visually engaging GTA 6 fan website built using React and Tailwind CSS. The site features smooth animations and interactive transitions to create an immersive browsing experience. Users can watch the official GTA 6 trailer, explore a brief overview of the game's storyline and setting, and check out the release date in a clean and modern layout. ",
+    techStack: ["React", "TailwindCSS"],
+    imgSrc: project10,
+    link: "https://gta-dun.vercel.app/",
   },
 ];
 
