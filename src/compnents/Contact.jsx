@@ -135,7 +135,9 @@ const Contact = () => {
         </div>
       </section>
       <footer>
-        <p className="text-center mb-5 ">Crafted by Sanjay with ❤️</p>
+        <p className="text-center mb-5 ">
+          © 2025. Designed & Developed by Sanjay Singk Kanwasi❤️
+        </p>
       </footer>
     </div>
   );

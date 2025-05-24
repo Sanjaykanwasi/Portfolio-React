@@ -9,6 +9,7 @@ import project8 from "../assets/project8.png";
 import project9 from "../assets/project9.png";
 import project10 from "../assets/project10.png";
 import project11 from "../assets/project11.png";
+import project12 from "../assets/project12.png";
 
 import {
   RiHtml5Line,
@@ -138,6 +139,15 @@ export const PROJECTS = [
     techStack: ["React", "TailwindCSS"],
     imgSrc: project10,
     link: "https://gta-dun.vercel.app/",
+  },
+  {
+    id: 12,
+    title: "Echo Img",
+    description:
+      "Echo Img is a modern image enhancement web application built using React and Tailwind CSS. It leverages the powerful PicWish API to perform intelligent image enhancements. The goal of this project is to provide users with a fast, intuitive, and visually clean interface to improve their images effortlessly with AI.",
+    techStack: ["React", "TailwindCSS"],
+    imgSrc: project12,
+    link: "https://echo-img.vercel.app/",
   },
 ];
 
