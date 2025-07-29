@@ -284,6 +284,14 @@ export const CERTIFICATES = [
 export const EDUCATION = [
   {
     id: 1,
+    degree: "Master of Engineering in Computer Science",
+    institution: "Chandigarh University",
+    duration: "2025 - 2027",
+    description:
+      "Pursing my Masters in Computer Science.The program is equipping me with advanced knowledge in software development, data structures, algorithms, and emerging technologies like AI, machine learning, and cloud computing. It’s helping me strengthen both my theoretical foundation and practical skills to build innovative tech solutions.",
+  },
+  {
+    id: 2,
     degree: "Bachelor of Engineering in Computer Science",
     institution: "Chandigarh University",
     duration: "2020 - 2024",
@@ -291,7 +299,7 @@ export const EDUCATION = [
       "Graduated in Computer Science, focusing on algorithms, data structures, and web development. Completed projects in Java, React, and Node.js, gaining hands-on experience in frontend and backend technologies.",
   },
   {
-    id: 2,
+    id: 3,
     degree: "Senior School Certificate Examination",
     institution: "Army Public School No.1 Roorkee (CBSE)",
     duration: "2019 - 2020",
@@ -299,7 +307,7 @@ export const EDUCATION = [
       "Completed coursework in Physics, Chemistry, Mathematics, English and Physical Education. Participated in extracurricular activities, sports and events.",
   },
   {
-    id: 3,
+    id: 4,
     degree: "Secondary School Examination",
     institution: "Army Public School No.1 Roorkee (CBSE)",
     duration: "2017 - 2018",
