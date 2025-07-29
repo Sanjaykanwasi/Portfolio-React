@@ -2,7 +2,6 @@ import { RiGithubFill, RiLinkedinBoxFill } from "@remixicon/react";
 // import { useForm, ValidationError } from "@formspree/react";
 import React from "react";
 import { useRef } from "react";
-import { useState } from "react";
 
 const Contact = () => {
   //   const [formData, setFormData] = useState({

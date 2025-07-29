@@ -10,6 +10,12 @@ import project9 from "../assets/project9.png";
 import project10 from "../assets/project10.png";
 import project11 from "../assets/project11.png";
 import project12 from "../assets/project12.png";
+import project13 from "../assets/project13.png";
+import project14 from "../assets/project14.png";
+import project15 from "../assets/project15.png";
+import project16 from "../assets/project16.png";
+import project17 from "../assets/project17.png";
+import project18 from "../assets/project18.png";
 
 import {
   RiHtml5Line,
@@ -46,7 +52,7 @@ export const PROJECTS = [
     title: "Google Gemini Chatbot",
     description:
       "An advanced AI-powered chatbot designed to generate human-like responses, answer questions, and assist with various tasks. It replicates Gemini’s capabilities, including natural language understanding, contextual awareness, and smooth interaction, making it a powerful AI assistant.",
-    techStack: ["HTML", "CSS", "JavaScript"],
+    techStack: ["HTML", "CSS", "JavaScript", "Gemini API"],
     imgSrc: project1,
     link: "https://sanjaykanwasiai.netlify.app/",
   },
@@ -55,7 +61,7 @@ export const PROJECTS = [
     title: "Ochi Website",
     description:
       "A sleek and modern web design that replicates Ochi’s clean aesthetics, smooth animations, and user-friendly interface. It features a visually appealing layout, responsive design, and interactive elements, showcasing high-quality frontend development. ",
-    techStack: ["React", "Tailwind CSS"],
+    techStack: ["React", "Tailwind CSS", "Vite"],
     imgSrc: project2,
     link: "https://ochibysanjay.netlify.app/",
   },
@@ -73,7 +79,7 @@ export const PROJECTS = [
     title: "Echo-S",
     description:
       "A landing page is a focused, standalone web page designed to capture attention and drive a specific action, such as signing up, purchasing, or learning more about a product or service. With a clean layout, compelling visuals, and persuasive copy, it effectively engages visitors and boosts conversions.",
-    techStack: ["React", "Tailwind CSS"],
+    techStack: ["React", "Tailwind CSS", "Vite"],
     imgSrc: project4,
     link: "https://echo-s.vercel.app/",
   },
@@ -82,7 +88,7 @@ export const PROJECTS = [
     title: "Echo-M (Movie Website)",
     description:
       "Developed and deployed a dynamic movie discovery website using The Movie Database (TMDB) API. The platform allows users to browse movies, view details, and watch trailers seamlessly. Implemented features such as a favorites system with local storage and an interactive UI using React and modern web technologies",
-    techStack: ["React", "CSS"],
+    techStack: ["React", "CSS", "Vite"],
     imgSrc: project5,
     link: "https://echo-m.vercel.app/",
   },
@@ -91,7 +97,7 @@ export const PROJECTS = [
     title: "Echo-L(Logo Maker)",
     description:
       "Echo-L is a sleek and intuitive website for creating custom logos effortlessly. Whether you're a startup, designer, or business owner, Echo-L provides AI-powered tools to generate professional-quality logos in minutes.",
-    techStack: ["React", "TailwindCSS"],
+    techStack: ["React", "TailwindCSS", "Vite"],
     imgSrc: project6,
     link: "https://echo-l.vercel.app/",
   },
@@ -100,7 +106,7 @@ export const PROJECTS = [
     title: "Echo-G(Game Website)",
     description:
       "Echo-G is a game discovery platform that leverages the RAWG API to provide users with detailed information about video games. It allows gamers to explore game ratings, genres, and more. With a sleek and intuitive interface, Echo-G enhances the browsing experience by offering seamless search and filtering options, making it easy to find and track favorite games.",
-    techStack: ["React", "TailwindCSS"],
+    techStack: ["React", "TailwindCSS", "Vite"],
     imgSrc: project7,
     link: "https://echo-g-sanjay.vercel.app/",
   },
@@ -109,7 +115,7 @@ export const PROJECTS = [
     title: "Echo-E(Employee Management System)",
     description:
       "Echo E is a streamlined task management web application designed for efficient workplace coordination. It features an Admin Dashboard where administrators can log in, manage employees, and assign tasks. Employees access their Employee Dashboard to view assigned tasks and track their progress.",
-    techStack: ["React", "TailwindCSS"],
+    techStack: ["React", "TailwindCSS", "Vite"],
     imgSrc: project8,
     link: "https://echo-e.vercel.app/",
   },
@@ -118,7 +124,7 @@ export const PROJECTS = [
     title: "Echo-I(AI Image Generator)",
     description:
       "Echo I is an AI-powered image generator website that utilizes the Hugging Face API to create stunning visuals based on user prompts. It allows users to select different AI models, adjust aspect ratios, and generate multiple images efficiently.",
-    techStack: ["React", "TailwindCSS"],
+    techStack: ["React", "TailwindCSS", "Vite"],
     imgSrc: project9,
     link: "https://echo-i.vercel.app/",
   },
@@ -127,7 +133,7 @@ export const PROJECTS = [
     title: "Soulcity",
     description:
       "This is a responsive YouTube video viewer website built with React and Tailwind CSS, designed for a clean and modern user experience. It uses the YouTube Data API to fetch and display real-time video content based on user search queries.",
-    techStack: ["React", "TailwindCSS"],
+    techStack: ["React", "TailwindCSS", "Vite"],
     imgSrc: project11,
     link: "https://soulcity.vercel.app/",
   },
@@ -136,7 +142,7 @@ export const PROJECTS = [
     title: "GTA VI",
     description:
       "This is a visually engaging GTA 6 fan website built using React and Tailwind CSS. The site features smooth animations and interactive transitions to create an immersive browsing experience. Users can watch the official GTA 6 trailer, explore a brief overview of the game's storyline and setting, and check out the release date in a clean and modern layout. ",
-    techStack: ["React", "TailwindCSS"],
+    techStack: ["React", "TailwindCSS", "Vite"],
     imgSrc: project10,
     link: "https://gta-dun.vercel.app/",
   },
@@ -145,9 +151,63 @@ export const PROJECTS = [
     title: "Echo Img",
     description:
       "Echo Img is a modern image enhancement web application built using React and Tailwind CSS. It leverages the powerful PicWish API to perform intelligent image enhancements. The goal of this project is to provide users with a fast, intuitive, and visually clean interface to improve their images effortlessly with AI.",
-    techStack: ["React", "TailwindCSS"],
+    techStack: ["React", "TailwindCSS", "Vite"],
     imgSrc: project12,
     link: "https://echo-img.vercel.app/",
+  },
+  {
+    id: 13,
+    title: "Echo Safe",
+    description:
+      "Echo Safe is a secure password and card details manager built with Next.js, Tailwind CSS, and MongoDB. The platform enables users to store and manage sensitive information like passwords and payment details safely in one place, with a focus on privacy, performance, and user-friendly design.",
+    techStack: ["NextJS", "TailwindCSS", "MongoDB"],
+    imgSrc: project13,
+    link: "https://echo-safe-flame.vercel.app/",
+  },
+  {
+    id: 14,
+    title: "Echo Links",
+    description:
+      "Echo Links is a sleek and efficient URL shortener built with Next.js, Tailwind CSS, and MongoDB. The platform allows users to create, manage, and share shortened links easily, offering a clean interface and reliable backend for fast and simple link redirection.",
+    techStack: ["NextJS", "TailwindCSS", "MongoDB"],
+    imgSrc: project14,
+    link: "https://echo-links.vercel.app/",
+  },
+  {
+    id: 15,
+    title: "Echo Chats",
+    description:
+      "Echo Chats is a community discussion platform built with Next.js and Tailwind CSS. It features multiple forums where users can join, post, and engage in conversations with others around shared topics. Designed for simplicity and interaction, Echo Chats makes real-time discussions easy and organized.",
+    techStack: ["NextJS", "TailwindCSS"],
+    imgSrc: project15,
+    link: "https://echo-chats.vercel.app/forums",
+  },
+  {
+    id: 16,
+    title: "Echo Blogs",
+    description:
+      "Echo Blogs is a content-focused platform built with React.js and Tailwind CSS, where users can read blogs on a variety of topics. With a clean, responsive design, Echo Blogs offers an engaging reading experience across devices, making it easy to explore informative and insightful posts.",
+    techStack: ["NextJS", "TailwindCSS"],
+    imgSrc: project16,
+    link: "https://echo-blogs-brown.vercel.app/",
+  },
+  {
+    id: 17,
+    title: "CodeWithSanjay",
+    description:
+      "CodeWithSanjay is a personal developer portfolio and project showcase platform built with Next.js, Tailwind CSS, and MongoDB. The site allows visitors to explore Sanjay's projects, view source code, and even support the creator through donations. ",
+    techStack: ["NextJS", "TailwindCSS", "MongoDB"],
+    imgSrc: project17,
+    link: "https://codewithsanjay.vercel.app/",
+  },
+  {
+    id: 18,
+    title: "Echo Jobs",
+    description:
+      "Echo Jobs is a modern job portal built with React.js, Tailwind CSS, and Vite on the frontend, with Supabase powering the backend. The platform enables candidates to browse and apply for jobs, while recruiters can post job listings and manage applications seamlessly. ",
+    techStack: ["NextJS", "TailwindCSS", "Vite", "Supabase"],
+    imgSrc: project18,
+    link: "https://echo-j.vercel.app/",
   },
 ];
 
